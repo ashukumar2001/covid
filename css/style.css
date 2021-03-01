@@ -1,0 +1,135 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* nav.navbar {
+    position: sticky;
+    top: 0px;
+} */
+.main-hero {
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 0px;
+    overflow: hidden;
+    border-bottom-right-radius: 50%;
+    /* margin-bottom: 3rem; */
+}
+.bg-lightgrey {
+    background-color: rgb(245, 245, 245);
+}
+
+button.navbar-toggler {
+    border: none;
+}
+button.navbar-toggler:focus {
+    outline: none;
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+}
+.brand-dot {
+    color: rgb(0, 166, 255);
+}
+
+.subheading {
+    color: rgb(122, 206, 252);
+}
+.heading,.section-heading {
+    color: rgb(0, 166, 255);
+
+}
+ 
+p {
+    color: rgb(79, 79, 79);
+}
+
+.btn {
+    /* border: none; */
+    border-radius: 50px;
+    background-color: rgb(0, 166, 255);
+    border: none;
+}
+
+.data .icon span {
+    font-size: 2rem;
+}
+.data strong.number {
+    font-size: 2rem;
+}
+
+.main-section {
+    margin: 6rem auto;
+}
+
+.icon-wrap span.flaticon-protection {
+    font-size: 2rem;
+    color: rgb(0, 166, 255);
+    
+}
+
+.media-v1 {
+    /* border: 1px solid black; */
+    margin: 1.5rem 0;
+    box-shadow: -0px -0px 5px rgb(224, 224, 224);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bg-1 .icon-wrap {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: lightblue;
+    padding: 2rem 3rem;
+}
+.media-v1 .body {
+    padding: 1rem;
+    background-color: white;
+}
+
+.do .check li, .dont .cross li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.do .check > li::before {
+    color: #a8df65;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'icomoon';
+    content: "\e86c";
+}
+
+.dont .cross li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #e84a5f;
+    font-family: 'icomoon';
+    content: "\e5cd";
+}
+
+.symptom {
+    box-shadow: -0px -0px 5px rgb(224, 224, 224);
+    padding: 1rem;
+    background-color: white;
+}
+.symptom .img {
+    flex: 0 0 80px;
+}
+.symptom .text {
+    padding-left: 2rem;
+}
+.symptom .text h3 {
+    font-size: 1.1rem;
+}
+
+.main-footer .list-unstyled li a {
+    font-weight: bold;
+}
+
+.sticky-navbar {
+    background-color: white;
+    transition: all 0.8s ease;
+}
